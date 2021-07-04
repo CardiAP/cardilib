@@ -29,6 +29,10 @@ $ tox
 # Publishing project
 
 ```bash
+# update package version in setup.cfg
+# them run these command:
+$ git tag <version>
+$ git push origin HEAD --tags
 # build the package
 $ tox -e build
 # publish to test.pypi
