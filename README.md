@@ -12,12 +12,16 @@ Copyright © `2020-2021 ` `Velez Rueda, Garcia Smith, Sommese`
 # Create and active a virtual env
 $ python3 -m venv .venv
 $ source .venv/bin/activate
-# isntall the project
+# install the project
 $ pip install -e .
 ```
+
 # Running tests
 
 ```bash
+# install tox
+$ pip install tox
+# execute tox
 $ tox
 ```
 
