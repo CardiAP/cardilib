@@ -1,6 +1,7 @@
+import pytest
 from unittest import TestCase
 
-from lib.analysis.peaks_calculation import calculate_peaks
+from cardilib.analysis.peaks_calculation import calculate_peaks
 
 
 class TestPeaksCalculation(TestCase):

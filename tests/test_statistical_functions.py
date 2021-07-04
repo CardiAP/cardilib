@@ -1,8 +1,9 @@
+import pytest
 from unittest import TestCase
 
 import numpy as np
 
-from lib.analysis.statistical_functions import calculate_amplitudes, MAX_PEAKS_ARE_REQUIRED, MIN_PEAKS_ARE_REQUIRED, \
+from cardilib.analysis.statistical_functions import calculate_amplitudes, MAX_PEAKS_ARE_REQUIRED, MIN_PEAKS_ARE_REQUIRED, \
     BAD_MAX_AND_MIN_LENGTHS, calculate_time_to_peaks, calculate_times_to_half_peaks, EMPTY_INTENSITIES, \
     MAX_POSITIONS_OUT_OF_BOUND, MIN_POSITIONS_OUT_OF_BOUND, calculate_taus, _calculate_tau
 

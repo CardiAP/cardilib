@@ -1,10 +1,10 @@
 import numpy as np
 
-from lib.analysis.peaks_calculation import calculate_peaks
-from lib.analysis.peak_given import calculate_peaks_slice
-from lib.analysis.statistical_functions import calculate_amplitudes, calculate_time_to_peaks, \
+from cardilib.analysis.peaks_calculation import calculate_peaks
+from cardilib.analysis.peak_given import calculate_peaks_slice
+from cardilib.analysis.statistical_functions import calculate_amplitudes, calculate_time_to_peaks, \
     calculate_times_to_half_peaks, calculate_taus
-from lib.image.image_data import split_vertically_by
+from cardilib.image.image_data import split_vertically_by
 
 
 def analyze_image(image, min_dist_between_max_peaks, calibration, slice_width=0):

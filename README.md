@@ -10,12 +10,16 @@ Copyright © `2020-2021 ` `Velez Rueda, Garcia Smith, Sommese`
 
 ```bash
 # Create and active a virtual env
-$ virtualenv .venv
-$ . .venv/bin/activate
-# install dependencies
-$ pip3 install -r requirements.txt 
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+# isntall the project
+$ pip install -e .
 ```
+# Running tests
 
+```bash
+$ tox
+```
 
 # Using cardilib on line
 
