@@ -25,6 +25,19 @@ $ pip install tox
 $ tox
 ```
 
+
+# Publishing project
+
+```bash
+# build the package
+$ tox -e build
+# publish to test.pypi
+$ tox -e publish 
+# publish to pypi
+$ tox -e --publish -- --repository pypi
+```
+
+
 # Using cardilib on line
 
 You can find a web server for using cardilib hosted in Binder. You can launch [CardiAP here](http://cardiap.herokuapp.com/)
