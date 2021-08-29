@@ -31,6 +31,7 @@ $ tox
 ```bash
 # update package version in setup.cfg
 # them run these command:
+$ git commit setup.cfg -m "update to version <version>"
 $ git tag <version>
 $ git push origin HEAD --tags
 # build the package
@@ -38,7 +39,7 @@ $ tox -e build
 # publish to test.pypi
 $ tox -e publish 
 # publish to pypi
-$ tox -e --publish -- --repository pypi
+$ tox -e publish -- --repository pypi
 ```
 
 
